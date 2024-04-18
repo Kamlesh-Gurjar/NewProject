@@ -3,7 +3,7 @@ import {View, Text} from 'react-native';
 const App = () => {
   return <View style={{flex:1}}>
     <Text>
-      Hello World !
+      Hello World ! How 
     </Text>
   </View>;
 };
