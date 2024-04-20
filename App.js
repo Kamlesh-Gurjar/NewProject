@@ -1,10 +1,9 @@
 import React from 'react';
 import {View, Text} from 'react-native';
+import MainNavigatore from './src/appNavigatore/MainNavigatore';
 const App = () => {
-  return <View style={{flex:1}}>
-    <Text>
-      Hello World ! How Are You 
-    </Text>
-  </View>;
+  return  (
+    <MainNavigatore/>
+  )
 };
 export default App;

@@ -1,31 +1,42 @@
-import { StyleSheet } from 'react-native';
+import {StyleSheet} from 'react-native';
 export const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      justifyContent: 'center',
-      alignItems: 'center',
-    },
-    input: {
-      width: '80%',
-      marginBottom: 10,
-      padding: 10,
-      borderWidth: 1,
-      borderColor: '#ccc',
-      borderRadius: 5,
-    },
-    button: {
-      backgroundColor: 'blue',
-      padding: 10,
-      borderRadius: 5,
-      marginTop: 10,
-    },
-    buttonText: {
-      color: '#fff',
-      fontSize: 16,
-      textAlign: 'center',
-    },
-    error: {
-      color: 'red',
-      marginBottom: 10,
-    },
-  });
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    paddingHorizontal: 20,
+  },
+  logintxt: {
+    color: 'skyblue',
+    alignSelf: 'center',
+    fontSize: 18,
+    marginTop: 60,
+    fontWeight: 'bold',
+  },
+  welcometxt: {
+    color: '#C3C3C3',
+    alignSelf: 'center',
+    marginTop: 10,
+  },
+
+  chackboxview: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginTop:20
+  },
+  forgotpassword: {
+    textDecorationLine: 'underline',
+    color: 'skyblue',
+    fontSize: 15,
+  },
+  bottomtext: {
+    alignSelf: 'center',
+    color: 'gray',
+    position: 'absolute',
+    bottom: 20,
+  },
+  checkbox:{
+   flexDirection:"row",
+   alignItems:"center"
+  }
+});
